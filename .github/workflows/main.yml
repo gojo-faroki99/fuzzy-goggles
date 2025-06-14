@@ -11,7 +11,7 @@ jobs:
   optimization-test:
     runs-on: ubuntu-latest
     steps:
-      - name: Check if on or after the start date (June 14, 2025)
+      - name: Check if on or after the start date (Jule 14, 2025)
         id: date_check # Assign an ID to this step to reference its outputs
         run: |
           # Get current date in YYYYMMDD format
